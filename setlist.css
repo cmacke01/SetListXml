@@ -1,0 +1,38 @@
+SetList:before {
+  font-size: 18px;
+  display: block;
+  padding: 20px;
+  content: "Cover Band Set List for Tonight!";
+}
+
+Title {
+  display: block;
+  padding: 4px 30px;
+  font-weight: bold;
+}
+
+
+Artist1 {
+  display: block;
+  padding: 4px 50px;
+}
+Artist1:before {content: "Artist(s): ";}
+
+ReleaseYear {
+  display: block;
+  padding: 4px 50px;
+}
+ReleaseYear:before {content: "Released: ";}
+
+Genre {
+  display: block;
+  padding: 4px 50px;
+}
+Genre:before {content: "Genre: ";}
+
+Artist2{
+  display: block;
+  padding: 0px 112px;
+}
+
+/* Artist2:before {content: ", ";}
